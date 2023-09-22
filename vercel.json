@@ -3,13 +3,13 @@
 "builds" :[
     {
 
-        "src": "*.js",
+        "src": "index.js",
         "use": "@vercel/node"
     }
 ],
 "roots" :[
     {
-        "src" :"/.index.js",
+        "src" :"/(.*)",
         "dest" :"/"
     }
 ]
